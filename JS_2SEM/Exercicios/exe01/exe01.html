@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando Alerts e Barra de Progresso</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <main class="container ">  
+    <section class="col-lg-5 mx-auto mt-4">
+        <h1 class="text-center ">Informe seus dados</h1>
+        <div class="mt-4">
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="nomeInformcao" placeholder="name@example.com">
+                <label>Nome Completo</label>
+              </div>
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="idadeInformacao" placeholder="name@example.com">
+                <label>Idade</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control " id="cidadeInformacao" placeholder="name@example.com">
+                <label>Cidade</label>
+            </div>
+        </div>
+        <div class="d-grid mt3">
+            <div class="btn btn-success" onclick="botaoEnviar()">Enviar</div>
+        </div>
+        <div class="progress mt-5 ">
+            <div class="progress progress-bar progress-bar-striped progress-bar-animated "
+            role="progressbar" style="width: 0%;"></div>
+        </div>
+        <div id="mostrar"></div>
+    </section>
+</main>
+</body>
+<script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</html>
