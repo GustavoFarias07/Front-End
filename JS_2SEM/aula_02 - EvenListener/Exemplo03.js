@@ -1,5 +1,5 @@
 //Atribuir valor dos elementos para a variavel
-const corSelecionada = document.querySelector("#corSelecionada");
+const Selecionada = document.querySelector("#corSelecionada");
 const exibirCor = document.querySelector("#exibirCor");
 
 //Funçao para atualizar a cor exibida, quando alterar a seleção
